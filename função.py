@@ -15,7 +15,7 @@ def query(nome):
     if nome == 'pq':
         return query_pq
     
-    elif nome == 'rf':
+    elif nome == 'pf':
         return query_pf
 
 def execucao(cursor,query):
